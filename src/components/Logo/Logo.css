@@ -1,0 +1,9 @@
+.Tilt {
+    background: linear-gradient(45deg, red, blue 100%);
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    padding-top: 25px;
+}
