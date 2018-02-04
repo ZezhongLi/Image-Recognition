@@ -1,13 +1,14 @@
 import React from 'react';
 
-const Rank = () => {
+const Rank = ({ name, entries}) => {
     return (
         <div>
             <div className = 'f3 white'>
-                {'Neil, you are ranking ...'}
-            </div>
-            <div className = 'f2 white'>
-                {'#5'}
+                <p>
+                    <span className = 'f2'>{name}</span>
+                    , you have detected 
+                    <span className = 'f2'> {entries} </span> images!
+                </p>
             </div>
         </div>
     );
